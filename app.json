@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Echo Care",
+    "slug": "echo-care",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F8FAFC"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F8FAFC"
+      },
+      "permissions": [
+        "RECORD_AUDIO"
+      ],
+      "package": "com.bonsii.echocare"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2bbd186b-bd9c-4311-938e-84afc27028d6"
+      }
+    }
+  }
+}
